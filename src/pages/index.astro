@@ -1,24 +1,8 @@
 ---
-import '../styles/global.css';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-
-const pageTitle = 'Ready for liftoff! 🚀';
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Ready for liftoff! 🚀";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{pageTitle}</title>
-  </head>
-  <body>
-    <Header />
-    <h1>Hello New Visitor</h1>
-
-    <Footer />
-    <script>import "../scripts/menu.js";</script>
-  </body>
-</html>
+<BaseLayout pageTitle= {pageTitle} >
+  <h1>Welcome to my home on the internet</h1>
+</BaseLayout>
