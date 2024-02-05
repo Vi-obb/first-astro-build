@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import Navigation from '../components/navigation.astro';
+import Footer from '../components/Footer.astro';
 
 const pageTitle = 'About VFO';
 
@@ -42,9 +44,7 @@ const textCase = "uppercase";
     </style>
   </head>
   <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/blog/">Blog</a>
+    <Navigation />
     <h1>Who's VFO?</h1>
     <p>Here are a few facts about me:</p>
     <ul>
@@ -78,5 +78,7 @@ const textCase = "uppercase";
         <p>My goal is not 3 days.</p>
       )
     }
+
+    <Footer />
   </body>
 </html>

@@ -1,7 +1,9 @@
 ---
 import '../styles/global.css';
+import Navigation from '../components/navigation.astro';
+import Footer from '../components/Footer.astro';
 
-const pageTitle = "Ready for liftoff! 🚀";
+const pageTitle = 'Ready for liftoff! 🚀';
 ---
 
 <html lang="en">
@@ -13,9 +15,9 @@ const pageTitle = "Ready for liftoff! 🚀";
     <title>{pageTitle}</title>
   </head>
   <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-	<a href="/blog/">Blog</a>
+    <Navigation />
     <h1>Hello New Visitor</h1>
+
+    <Footer />
   </body>
 </html>
