@@ -20,11 +20,23 @@ h1 {
     font-size: 2rem;
 }
 
+.hamburger {
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    display: block;
+    width: 32px;
+    height: 4px;
+    margin-bottom: 4px;
+    background-color: navy;
+}
+
 .nav-links {
     width: 100%;
     top: 5rem;
     left: 48px;
-    background-color: none;
     display: none;
     margin: 0;
 }
@@ -52,13 +64,16 @@ h1 {
         display: block;
         position: static;
         width: auto;
-        background: none;
     }
 
     .nav-links a {
         display: inline-block;
         padding: 0.2rem 0.8rem;
         border-radius: 0.2rem;
+    }
+
+    .hamburger {
+        display: none;
     }
 
 }
