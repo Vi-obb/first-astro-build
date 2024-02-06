@@ -20,6 +20,16 @@ h1 {
     font-size: 2rem;
 }
 
+.blogpost {
+    text-decoration: none;
+    color: black;
+}
+
+.blogpost:hover {
+    text-decoration: underline;
+    color: navy;
+}
+
 #intro {
     color: orange;
 }

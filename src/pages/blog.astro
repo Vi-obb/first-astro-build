@@ -8,8 +8,8 @@ const pageTitle = "VFO's Blog";
 
 <BaseLayout pageTitle= {pageTitle}>
     <h1>What am I up to?</h1>
-    <p>This is where I will post interesting stuff. You found a goldmine, get excited.</p>
-    <ul>
+    <p>This is where I will post interesting stuff I convince myself to write about. You found a goldmine, get excited.</p>
+    <ol>
       {allPosts.map((post) => <Blogpost title={post.frontmatter.title} url={post.url} />)}
-    </ul>
+    </ol>
 </BaseLayout>
