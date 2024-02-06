@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: Everything seems great so far... I think
 author: Astro Learner
 description: "I had some challenges, but asking in the community really helped!"

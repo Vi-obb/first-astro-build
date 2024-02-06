@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: Coming together nicely
 author: Astro Learner
 description: "This post will show up on its own!"

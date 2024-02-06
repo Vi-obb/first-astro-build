@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: Why I love Astro
 pubDate: 2024-05-02
 description: 'This is the first post of my new Astro blog.'

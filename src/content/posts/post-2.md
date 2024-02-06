@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: Breakthrough! Finally
 author: Astro Learner
 description: "After learning some Astro, I couldn't stop!"
