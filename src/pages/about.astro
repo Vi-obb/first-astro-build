@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const pageTitle = 'About VFO';
+const pageDescription = 'Get to know Vincent, a software developer and designer from Ghana.';
 
 const identity = {
   firstName: 'Vincent',
@@ -14,7 +15,7 @@ const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Astro', 'Rust', 'R'];
 
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout pageTitle={pageTitle} pageDescription={pageDescription}>
   <h1 id="intro">Who's VFO?</h1>
   <p>Here are a few facts about me:</p>
   <ul>

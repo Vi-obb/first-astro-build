@@ -14,6 +14,11 @@
     "@astrojs/rss": "^4.0.4",
     "astro": "^4.3.2",
     "astro-content": "^0.0.0-alpha.13",
+    "astro-seo": "^0.8.0",
     "preact": "^10.19.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "inquirer": "^9.2.14"
   }
 }
